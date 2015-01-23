@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32798B971355804D00CD2667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32798B961355804D00CD2667 /* Foundation.framework */; };
+		32799385135587E900CD2667 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32799384135587E900CD2667 /* Info.plist */; };
+		875A824E126FFF1F00ECADC2 /* BBChannelsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 875A824C126FFF1F00ECADC2 /* BBChannelsMenu.m */; };
+		899A145C141E2EAC0064F1D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 899A145A141E2EAC0064F1D7 /* InfoPlist.strings */; };
+		D3DB60C01A59A06800A71716 /* BBAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB60BF1A59A06800A71716 /* BBAppliance.m */; };
+		D3DB61231A59E4DC00A71716 /* BBApplianceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB61221A59E4DC00A71716 /* BBApplianceInfo.m */; };
+		D3DB61251A5A1B1600A71716 /* ThumbnailPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DB61241A5A1B1600A71716 /* ThumbnailPlaceholder.png */; };
+		D3DB61271A5A1B2300A71716 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DB61261A5A1B2300A71716 /* AppIcon.png */; };
+		D3DB612A1A5A29D600A71716 /* BBMediaAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB61291A5A29D600A71716 /* BBMediaAsset.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		32798B961355804D00CD2667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32799384135587E900CD2667 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atvTwo_Prefix.pch; sourceTree = "<group>"; };
+		875A8249126FFF1F00ECADC2 /* BackRowExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackRowExtras.h; path = Classes/BackRowExtras.h; sourceTree = "<group>"; };
+		875A824B126FFF1F00ECADC2 /* BBChannelsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBChannelsMenu.h; path = Classes/BBChannelsMenu.h; sourceTree = "<group>"; };
+		875A824C126FFF1F00ECADC2 /* BBChannelsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBChannelsMenu.m; path = Classes/BBChannelsMenu.m; sourceTree = "<group>"; };
+		875A8253126FFF5300ECADC2 /* BackRow */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BackRow; path = theos/include/BackRow; sourceTree = "<group>"; };
+		875A8427126FFF6D00ECADC2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		875A86EB12704ACC00ECADC2 /* theos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = theos; sourceTree = "<group>"; };
+		899A145B141E2EAC0064F1D7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* LiveTV.frappliance */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveTV.frappliance; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		D3DB60BE1A59A06800A71716 /* BBAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBAppliance.h; path = Classes/BBAppliance.h; sourceTree = "<group>"; };
+		D3DB60BF1A59A06800A71716 /* BBAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBAppliance.m; path = Classes/BBAppliance.m; sourceTree = "<group>"; };
+		D3DB61211A59E4DC00A71716 /* BBApplianceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBApplianceInfo.h; path = Classes/BBApplianceInfo.h; sourceTree = "<group>"; };
+		D3DB61221A59E4DC00A71716 /* BBApplianceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBApplianceInfo.m; path = Classes/BBApplianceInfo.m; sourceTree = "<group>"; };
+		D3DB61241A5A1B1600A71716 /* ThumbnailPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ThumbnailPlaceholder.png; path = Resources/ThumbnailPlaceholder.png; sourceTree = "<group>"; };
+		D3DB61261A5A1B2300A71716 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = Resources/AppIcon.png; sourceTree = "<group>"; };
+		D3DB61281A5A29D600A71716 /* BBMediaAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMediaAsset.h; path = Classes/BBMediaAsset.h; sourceTree = "<group>"; };
+		D3DB61291A5A29D600A71716 /* BBMediaAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMediaAsset.m; path = Classes/BBMediaAsset.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32798B971355804D00CD2667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* atvTwo */ = {
+			isa = PBXGroup;
+			children = (
+				875A8427126FFF6D00ECADC2 /* Makefile */,
+				875A86EB12704ACC00ECADC2 /* theos */,
+				875A8253126FFF5300ECADC2 /* BackRow */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = atvTwo;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB61261A5A1B2300A71716 /* AppIcon.png */,
+				D3DB61241A5A1B1600A71716 /* ThumbnailPlaceholder.png */,
+				32799384135587E900CD2667 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB60BE1A59A06800A71716 /* BBAppliance.h */,
+				D3DB60BF1A59A06800A71716 /* BBAppliance.m */,
+				875A8249126FFF1F00ECADC2 /* BackRowExtras.h */,
+				875A824B126FFF1F00ECADC2 /* BBChannelsMenu.h */,
+				875A824C126FFF1F00ECADC2 /* BBChannelsMenu.m */,
+				D3DB61281A5A29D600A71716 /* BBMediaAsset.h */,
+				D3DB61291A5A29D600A71716 /* BBMediaAsset.m */,
+				D3DB61211A59E4DC00A71716 /* BBApplianceInfo.h */,
+				D3DB61221A59E4DC00A71716 /* BBApplianceInfo.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32798B961355804D00CD2667 /* Foundation.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* LiveTV.frappliance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				899A145A141E2EAC0064F1D7 /* InfoPlist.strings */,
+				32DBCF630370AF2F00C91783 /* atvTwo_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* LiveTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "LiveTV" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				32798B6313557F9000CD2667 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveTV;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = atvTwo;
+			productReference = 8D5B49B6048680CD000E48DA /* LiveTV.frappliance */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "LiveTV" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				nl,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* atvTwo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* LiveTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB61271A5A1B2300A71716 /* AppIcon.png in Resources */,
+				D3DB61251A5A1B1600A71716 /* ThumbnailPlaceholder.png in Resources */,
+				32799385135587E900CD2667 /* Info.plist in Resources */,
+				899A145C141E2EAC0064F1D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32798B6313557F9000CD2667 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# this script was only possible because of Dustin Howetts epic theos project, thanks Dustin :)\n\n# we need to export this path because dpkg-deb is usually installed via macports\n\nexport PATH=/opt/local/bin:/opt/local/sbin:/usr/local/git:$PATH\nexport SRCROOT=\"$SRCROOT\"\n\n# only used if we SCP the deb over, and this only happens if dpkg-deb and fauxsu are installed\n\nATV_DEVICE_IP=apple-tv.local\n\n# xcodes path to the the full frappliance\n\nTARGET_BUILD_FRAPPLIANCE=\"$TARGET_BUILD_DIR\"/\"$PRODUCT_NAME\".$WRAPPER_EXTENSION\n\n# our layout dir and control file\n\nLAYOUT=\"$SRCROOT\"/layout\nCONTROL_FILE=\"$LAYOUT\"/DEBIAN/control\n\n# only needed if you have any mobile subtrate plugins involved, this may be taken care of by post scripts in theos, where its still the easiest to build ms tweaks\n\nSUBSTRATE_LAYOUT_PATH=\"$LAYOUT\"/Library/MobileSubstrate/DynamicLibraries\n\n# build directory for theos, we're still following his format and style as closely as possible\n\nDPKG_BUILD_PATH=\"$SRCROOT\"/_\n\n# DEBIAN location in the staging / build directory\n\nDPKG_DEBIAN_PATH=\"$DPKG_BUILD_PATH\"/DEBIAN\n\nAPPLETV_APPLIANCE_FOLDER=\"$DPKG_BUILD_PATH\"/Applications/AppleTV.app/Appliances/\n\n# cant get the linking part to work, not sure what kind of magic he is working to have the proper root folder in theos when running the after processes, so we arent using this for now\n\nLOWTIDE_APPLIANCE_FOLDER=\"$DPKG_BUILD_PATH\"/Applications/Lowtide.app/Appliances/\n\n# final frappliance location in the staging directory\n\nFINAL_PLUGIN_PATH=$APPLETV_APPLIANCE_FOLDER/\"$PRODUCT_NAME\".$WRAPPER_EXTENSION\n\n# paths for the appliances\n\n#mkdir -p $LOWTIDE_APPLIANCE_FOLDER\nmkdir -p $APPLETV_APPLIANCE_FOLDER\n\n# make sure these are all there\n\nmkdir -p \"$DPKG_BUILD_PATH\"\n\nmkdir -p \"$DPKG_DEBIAN_PATH\"\n\n# for this particular project we dont need this directory, but if you have ms tweaks involved you will want to comment this back in\n\n#mkdir -p $SUBSTRATE_LAYOUT_PATH\n\n# plucked from package.mk in theos/makesfiles lines 39-41 and adapted for shell/bash script\n\nCONTROL_PACKAGE_NAME=`cat layout/DEBIAN/control | grep \"^Package:\" | cut -d' ' -f2-`\nCONTROL_PACKAGE_ARCH=`cat layout/DEBIAN/control | grep \"^Architecture:\" | cut -d' ' -f2-`\nCONTROL_PACKAGE_BASE_VERSION=`cat layout/DEBIAN/control | grep \"^Version:\" | cut -d' ' -f2-`\n\n# i dont quite understand his fakeroot stuff so im just looking for a path to fauxsu\n\nFAUXSU_PATH=`which fauxsu`\n\n# we need dpkg-deb to make the package, this is the easiest way i can think of to find its location.\n\nDPKG_DEB_PATH=`which dpkg-deb`\n\n# echo $FINAL_PLUGIN_PATH\n\n# plucked and modified from theos/makesfiles/pacakge.mk as well, 46 - 56 (im including the $FINAL_PACKAGE_DEBVERSION code further down as well)\n# the first rsync command is syncing the layout folder with the _ folder, the second is syncing the frappliance into its final staging destination\n\nrsync -a \"$LAYOUT\"/ \"$DPKG_BUILD_PATH\"/ --exclude \"_MTN\" --exclude \".git\" --exclude \".svn\" --exclude \".DS_Store\" --exclude \"._*\" --exclude \"/.Spotlight-V100\" --exclude \"/.Trashes\"\nrsync -a \"$TARGET_BUILD_FRAPPLIANCE\"/ \"$FINAL_PLUGIN_PATH\"/ --exclude \"_MTN\" --exclude \".git\" --exclude \".svn\" --exclude \".DS_Store\" --exclude \"._*\" --exclude \"/.Spotlight-V100\" --exclude \"/.Trashes\"\n\n\n# had to move SIZE down because the size would've been for the prior build and not the current because it was run before rsync steps, thanks again Dustin !!\n\nSIZE=`du -I DEBIAN -ks _ | cut -f 1` \n\n#echo $SIZE\n\n# package_v.sh is nearly identical to the one in theos/bin with basically one variable swapped with $SRCROOT, one line cant describe the awesomness of that script.\n\n# short and skinny it checks the base version of the layout control file and compares it against the .theos/packages/ folder information to find the next proper build number\n# and it writes a new control file with the proper Version: into the staging DEBIAN directory\n\n\"$SRCROOT\"/package_v.sh -c ${CONTROL_FILE} > \"$DPKG_DEBIAN_PATH\"/control\n\n# adding Installed-Size: to the final DEBIAN/control file\n\necho \"Installed-Size: $SIZE\" >> \"$DPKG_DEBIAN_PATH\"/control\n\n# pluck out this version we just slipped into the new control file for purposes of the end deb package name\n\nFINAL_PACKAGE_DEBVERSION=`cat \"$DPKG_DEBIAN_PATH\"/control | grep \"^Version:\"| cut -d' ' -f2`\n\n# the big enchirido, the full package name in all its glory\n\nFILENAME=\"$CONTROL_PACKAGE_NAME\"_\"$FINAL_PACKAGE_DEBVERSION\"_\"$CONTROL_PACKAGE_ARCH\".deb\n\necho \"$FILENAME\"\n\n# at this point we have the staging are all set and we just need to fix owners/permissions on the staging directoy and build the deb package\n\n\n#does fauxsu exist?\n\nif [ -f \"$FAUXSU_PATH\" ]; then \n\n\techo \"we got fauxsu!\"\n\t\n\t# root:wheel ownership to the entire staging directory\n\t\n\t\"$FAUXSU_PATH\" chown -R root:wheel \"$DPKG_BUILD_PATH\"/\n\t\n\t# check for dpkg-deb, necessary to build the deb package\n\t\n\tif [ -f \"$DPKG_DEB_PATH\" ]; then\n\t\techo \"we have dpkg-deb too!\"\n\t\t\"$FAUXSU_PATH\" \"$DPKG_DEB_PATH\" -b \"$DPKG_BUILD_PATH\" \"$SRCROOT\"/\"$FILENAME\"\n\t\t\n\t\t# these lines were plucked from the theos/bin/install.exec and theos/bin/install.copyFile\n\t\t# scp the deb over into ~\n\t\t\n        scp -P 22 \"$SRCROOT\"/\"$FILENAME\" root@$ATV_DEVICE_IP:~\n\t\t\n\t\t# install the dpkg\n\t\t\n        ssh -p 22 root@$ATV_DEVICE_IP \"dpkg -i \"$FILENAME\"\"\n\t\t\n\t\t# restart Lowtide/AppleTV.app\n\t\t\n        ssh -p 22 root@$ATV_DEVICE_IP \"killall -9 AppleTV\"\n\t\t\n\t\t# done and done!\n\t\t\n\telse # DPKG_DEB_PATH check\n\t\t\n\t\techo \"You need dpkg-deb installed to create the deb packages, macports is recommended for easiest and quickest installation!!\"\n\t\t\n\tfi \n\t\n\telse # fauxsu check\n\n\techo \"You need Dustin Howetts fauxsu installed to maintain proper permissions and ownership of the packages built. git clone https://github.com/DHowett/fauxsu.git and then build and install\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875A824E126FFF1F00ECADC2 /* BBChannelsMenu.m in Sources */,
+				D3DB612A1A5A29D600A71716 /* BBMediaAsset.m in Sources */,
+				D3DB61231A59E4DC00A71716 /* BBApplianceInfo.m in Sources */,
+				D3DB60C01A59A06800A71716 /* BBAppliance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		899A145A141E2EAC0064F1D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899A145B141E2EAC0064F1D7 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atvTwo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /_/Applications/AppleTV.app/Appliances/;
+				PRODUCT_NAME = LiveTV;
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = frappliance;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /_/Applications/AppleTV.app/Appliances/;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atvTwo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /_/Applications/AppleTV.app/Appliances/;
+				PRODUCT_NAME = atvTwo;
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = _/Applications/AppleTV.app/Appliances/;
+				FRAMEWORK_SEARCH_PATHS = (
+					"theos/**",
+					"Classes/**",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"Classes/**",
+					"theos/**",
+				);
+				INFOPLIST_FILE = Info.plist;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LD_OPENMP_FLAGS = "-undefined dynamic_lookup -fopenmp";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-weak_lBackRow",
+					"-undefined",
+					dynamic_lookup,
+				);
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/PrivateHeaders";
+				PRODUCT_NAME = LiveTv;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = frappliance;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos5.1;
+			};
+			name = Release;
+		};
+		32798B5813557D2000CD2667 /* Native */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = YES;
+				CLANG_ANALYZER_GCD = YES;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos5.1;
+			};
+			name = Native;
+		};
+		32798B5913557D2000CD2667 /* Native */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /_/Applications/AppleTV.app/Appliances/;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atvTwo_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /_/Applications/AppleTV.app/Appliances/;
+				PRODUCT_NAME = atvTwo;
+				SDKROOT = iphoneos5.1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Native;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "LiveTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+				32798B5913557D2000CD2667 /* Native */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "LiveTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+				32798B5813557D2000CD2667 /* Native */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
